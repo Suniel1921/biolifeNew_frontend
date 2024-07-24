@@ -83,12 +83,12 @@ const BestSeller = () => {
               ) : (
                 filterData.length > 0 ? (
                   filterData.map((product) => (
-                    <Link className='link' key={product._id} to={`/products-details/${product._id}`}>
+                    <Link className='link' key={product._id} to={`/products-details/${product.slug}`}>
                       <div className='productChildContainer'>
                         <img className='productImg' src={product.images[0]} alt={product.name} />
-                        <p className='productName'>
+                        <h2 className='productName'>
                           {product.name.length > 20 ? `${product.name.slice(0, 20)}...` : product.name}
-                        </p>
+                        </h2>
                         <p className='productHeading'>{product.heading}</p>
                         <div className="product-rating"> <span>⭐⭐⭐⭐⭐</span></div>
                         <div className="priceContainer">

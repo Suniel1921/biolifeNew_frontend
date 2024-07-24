@@ -123,8 +123,8 @@ const DealOfTheDay = () => {
                             <span>⭐⭐⭐⭐⭐</span>
                         </div>
                         <p className="product-price">
-                            <span className="product-new-price">${selectedProduct.salePrice}</span>
-                            <span className="product-old-price">${selectedProduct.realPrice}</span>
+                            <span className="product-new-price">Rs {selectedProduct.salePrice}</span>
+                            <span className="product-old-price">Rs {selectedProduct.realPrice}</span>
                         </p>
                         <p className="product-features">
                             Fast charging 18W, 50% in 30 min USB Power Delivery 2.0 nQi wireless charging
