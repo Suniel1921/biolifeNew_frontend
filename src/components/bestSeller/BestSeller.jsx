@@ -86,7 +86,7 @@ const BestSeller = () => {
                     <Link className='link' key={product._id} to={`/products-details/${product.slug}`}>
                       <div className='productChildContainer'>
                         <img className='productImg' src={product.images[0]} alt={product.name} />
-                        <h2 className='productName'>
+                        <h2 className='productName product-title'>
                           {product.name.length > 20 ? `${product.name.slice(0, 20)}...` : product.name}
                         </h2>
                         <p className='productHeading'>{product.heading}</p>
