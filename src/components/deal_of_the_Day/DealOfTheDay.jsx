@@ -11,7 +11,7 @@ const DealOfTheDay = () => {
     const { addToCart } = useCartGlobally();
     
     // Timer duration
-    const initialHours = 15;
+    const initialHours = 2;
     const initialMinutes = 40;
     const initialSeconds = 3;
     const initialTime = (initialHours * 3600 + initialMinutes * 60 + initialSeconds) * 1000;
