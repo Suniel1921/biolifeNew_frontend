@@ -63,7 +63,10 @@ const HomeSlider = () => {
             <img src="/images/slide2.png" alt="Watch 2" />
           </div>
           <div>
-            <img src="/images/slide3.png" alt="Watch 3" />
+            <img src="/images/slide4.jpg" alt="Watch 3" />
+          </div>
+          <div>
+            <img src="/images/slide04.jpg" alt="Watch 3" />
           </div>
         </Slider>
       </div>
