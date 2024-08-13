@@ -56,6 +56,9 @@ const HomeSlider = () => {
     <div className="homeSliderContainer">
       <div className="container">
         <Slider {...settings}>
+        <div>
+            <img src="/images/slider6.jpg" alt="Watch 3" />
+          </div>
           <div>
             <img src="/images/slide2.png" alt="Watch 2" />
           </div>
@@ -65,6 +68,7 @@ const HomeSlider = () => {
           <div>
             <img src="/images/slide5.png" alt="Watch 3" />
           </div>
+       
         </Slider>
       </div>
     </div>
