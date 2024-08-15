@@ -18,7 +18,7 @@ const HomeSlider = () => {
 
   return (
     <div className="homeSliderContainer">
-      <div className="containerxxxxxxxxxx">
+      <div className="containerxxxxxxxx">
         <Slider {...settings}>
         <div>
             <img src="/images/slider6.jpg" alt="Watch 3" />

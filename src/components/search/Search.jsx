@@ -1,29 +1,3 @@
-// import React from 'react';
-// import { FaSearch } from 'react-icons/fa';
-// import '../search/search.css';
-
-// const Search = () => {
-//   return (
-//     <div className="searchContainer">
-//       <div className="searchWrapper">
-//         <input className="search" type="search" name="search" placeholder="Search Product Here..." />
-//         <FaSearch className="searchIcon" />
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Search;
-
-
-
-
-
-
-
-
-
-
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FaSearch } from 'react-icons/fa';
@@ -50,7 +24,6 @@ const Search = () => {
       <div className="searchWrapper">
         <input
           className="search"
-          type="search"
           name="search"
           placeholder="Search Product Here..."
           value={searchQuery}
